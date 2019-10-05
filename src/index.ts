@@ -6,4 +6,5 @@ class ArrayOfAnything<T> {
     }
 }
 
-new ArrayOfAnything<string>(['a', 'b', 'c']);
+const arr = new ArrayOfAnything(['a', 'b', 'c']);
+const arr1 = new ArrayOfAnything([1, 2, 3]);
